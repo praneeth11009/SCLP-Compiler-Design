@@ -1,0 +1,5 @@
+We also handled logical expressions involving more than one relational expressions involving floats .
+for this we loaded the  result of float comparisons into a register by using branching on bc1t, bc1f
+and from there it is similar to int case.
+so the spim code will differ for single relational expression involving floats since we 
+added support for generic case.
